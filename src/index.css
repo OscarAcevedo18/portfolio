@@ -1,13 +1,174 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0%;
+  padding: 0%;
+  background-image: url(https://i.pinimg.com/originals/dc/84/36/dc8436d03012b7204637ed7207a05808.gif);
+  background-size: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.icon {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 10px;
+  transition: 700ms;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.icon:hover {
+  background: linear-gradient(
+    to right,
+    #f93535b8,
+    #ff6c6ca9,
+    #ff6c6ca9,
+    #f93535b8
+  );
+  border-radius: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: 700ms;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.title {
+  display: flex;
+  font-family: 'Gupter', serif;
+  margin-left: 100px;
+  color: #ffffff;
+  font-size: xx-large;
+}
+
+.sub {
+  background-color: #fc2020ad;
+  border-radius: 60px;
+  padding: 15px;
+}
+
+.line {
+  border-width: 3px solid black;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-family: 'Metal', cursive;
+  padding: 50px;
+}
+
+.log {
+  display: flex;
+  align-items: center;
+  font-size: 55px;
+  transition: 700ms;
+  cursor: pointer;
+}
+
+.log:hover {
+  background: linear-gradient(
+    to right,
+    #f93535b8,
+    #ff6c6ca9,
+    #ff6c6ca9,
+    #f93535b8
+  );
+  border-radius: 20px;
+  padding: 25px;
+}
+/* About */
+
+.container-about {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #63c1ff8f;
+  padding: 20px;
+}
+
+                        /* SKILLS */
+
+.skillsContainer {
+  text-align: center;
+  font-family: 'Metal', cursive;
+}
+
+.sk-title {
+  color: aliceblue;
+  transition: 700ms;
+  cursor: pointer;
+}
+
+.card-skill-one {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.card-skill-two {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 35px;
+  margin: 20px;
+}
+
+.sk {
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #ff0000ae;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 700ms;
+  cursor: pointer;
+}
+.sk:hover {
+  background: linear-gradient(
+    to right,
+    #f94141b8,
+    #fc7575a9,
+    #fc7575a9,
+    #f94141b8
+  );
+  border-radius: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: #6494ed4a;
+  padding:20px;
+  font-size: 30px;
+  color: aliceblue;
 }
